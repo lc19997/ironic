@@ -19,7 +19,15 @@ mkdir -p /shared/html/pxelinux.cfg
 mkdir -p /shared/log/dnsmasq
 
 # Copy files to shared mount
-cp /usr/share/ipxe/undionly.kpxe /usr/share/ipxe/ipxe.efi /shared/tftpboot
+cp /usr/share/ipxe/undionly.kpxe /shared/tftpboot
+if [ -f "/usr/share/ipxe/ipxe.efi" ]; then
+    cp /usr/share/ipxe/ipxe.efi /shared/tftpboot/ipxe.efi
+elif [ -f "/usr/share/ipxe/ipxe-x86_64.efi" ]; then
+    cp  /usr/share/ipxe/ipxe-x86_64.efi /shared/tftpboot/ipxe.efi
+else
+    echo "Fatal Error - Failed to find ipxe binary"
+    exit 1
+fi
 
 # Use configured values
 sed -i -e s/IRONIC_IP/${PROVISIONING_IP}/g -e s/HTTP_PORT/${HTTP_PORT}/g \
