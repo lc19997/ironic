@@ -13,8 +13,7 @@ mkdir -p /shared/html/pxelinux.cfg
 mkdir -p /shared/log/dnsmasq
 
 # Copy files to shared mount
-# TODO(stbenjam): Add snponly.efi to this list when it's available from EL8 packages.
-cp /tftpboot/undionly.kpxe /tftpboot/ipxe.efi /shared/tftpboot
+cp /tftpboot/* /shared/tftpboot/
 
 # Template and write dnsmasq.conf
 python3 -c 'import os; import sys; import jinja2; sys.stdout.write(jinja2.Template(sys.stdin.read()).render(env=os.environ))' </etc/dnsmasq.conf.j2 >/etc/dnsmasq.conf
