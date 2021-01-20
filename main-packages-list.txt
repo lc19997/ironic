@@ -9,8 +9,8 @@ ipxe-bootimgs
 ipxe-roms-qemu
 iscsi-initiator-utils
 mariadb-server
-openstack-ironic-api
-openstack-ironic-conductor
+openstack-ironic-api >= 16.0.2-0.20201105091209.193b93c.el8
+openstack-ironic-conductor >= 16.0.2-0.20201105091209.193b93c.el8
 parted
 psmisc
 python3-dracclient
