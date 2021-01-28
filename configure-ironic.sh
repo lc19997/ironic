@@ -4,8 +4,11 @@
 
 HTTP_PORT=${HTTP_PORT:-"80"}
 MARIADB_PASSWORD=${MARIADB_PASSWORD:-"change_me"}
+# TODO(dtantsur): remove the explicit default once we get
+# https://review.opendev.org/761185 in the repositories
 NUMPROC=$(cat /proc/cpuinfo  | grep "^processor" | wc -l)
-NUMWORKERS=$(( NUMPROC < 12 ? NUMPROC : 12 ))
+NUMPROC=$(( NUMPROC <= 4 ? NUMPROC : 4 ))
+export NUMWORKERS=${NUMWORKERS:-$NUMPROC}
 
 # Whether to enable fast_track provisioning or not
 IRONIC_FAST_TRACK=${IRONIC_FAST_TRACK:-true}
