@@ -42,7 +42,7 @@ python3-pyghmi >= 1.5.14-2.1.el8ost
 python3-tooz >= 2.8.0-0.20210324235001.54448e9.el8
 python3-scciclient
 python3-stevedore >= 3.3.0-0.20210325001012.7d7154f.el8
-python3-sushy >= 3.7.1-0.20210428165244.bc49878.el8
+python3-sushy >= 3.7.3-0.20210804111215.b76050c.el8
 python3-sushy-oem-idrac >= 2.0.1-0.20210326152858.83b7eb0.el8
 python3-zipp >= 0.5.1-2.el8ost
 qemu-img
