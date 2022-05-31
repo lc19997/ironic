@@ -1,23 +1,18 @@
 approvers:
   - bfournie
   - derekhiggins
-  - dhellmann
   - dtantsur
   - elfosardo
+  - iurygregory
   - hardys
-  - juliakreger
-  - russellb
-  - stbenjam
   - zaneb
 reviewers:
   - bfournie
   - derekhiggins
-  - dhellmann
   - dtantsur
   - elfosardo
+  - iurygregory
   - hardys
-  - juliakreger
-  - russellb
   - zaneb
 
 # Bugzilla Information
