@@ -11,9 +11,9 @@ ipxe-bootimgs-aarch64
 ipxe-bootimgs-x86
 ipxe-roms-qemu
 mod_ssl
-openstack-ironic >= 1:20.2.1-0.20220628175043.b5ed57a.el8
-openstack-ironic-api >= 1:20.2.1-0.20220628175043.b5ed57a.el8
-openstack-ironic-conductor >= 1:20.2.1-0.20220628175043.b5ed57a.el8
+openstack-ironic >= 1:20.2.1-0.20220819165405.667a505.el8
+openstack-ironic-api >= 1:20.2.1-0.20220819165405.667a505.el8
+openstack-ironic-conductor >= 1:20.2.1-0.20220819165405.667a505.el8
 openstack-ironic-inspector >= 10.12.1-0.20220513095437.6dd37e5.el8
 python3-debtcollector >= 2.5.0-0.20220509211533.a6b46c5.el8
 python3-dracclient >= 8.0.0-0.20220509201613.9c7499c.el8
@@ -41,10 +41,10 @@ python3-oslo-utils >= 4.13.0-0.20220509213520.de4429f.el8
 python3-packaging >= 20.4-2.el8
 python3-paste >= 3.2.4-2.el8
 python3-paste-deploy >= 2.0.1-5.el8
-python3-pint >= 0.10.1-2.el8
+python3-pint >= 0.10.1-3.el8
 python3-proliantutils >= 2.13.2-0.20220509214147.8c7b6b1.el8
 python3-pyghmi >= 1.5.14-2.1.el8ost
-python3-scciclient >= 0.11.1-0.20220216020832.a84332b.el8
+python3-scciclient >= 0.12.0-0.20220823145414.274dca0.el8
 python3-stevedore >= 3.5.0-0.20220509195112.442f157.el8
 python3-sushy >= 4.1.1-0.20220302175405.c769149.el8
 python3-sushy-oem-idrac >= 4.0.0-0.20220324125409.7b75e6e.el8
