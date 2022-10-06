@@ -23,8 +23,6 @@ Listen 5050
     LogLevel debug
     CustomLog /dev/stdout combined
 
-    ServerName 172.22.0.2
-
     SSLEngine On
     SSLCertificateFile {{ env.IRONIC_INSPECTOR_CERT_FILE }}
     SSLCertificateKeyFile {{ env.IRONIC_INSPECTOR_KEY_FILE }}

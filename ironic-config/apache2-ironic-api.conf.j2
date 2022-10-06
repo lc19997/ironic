@@ -30,7 +30,6 @@ Listen 6385
     CustomLog /dev/stdout combined
 
 {% if env.IRONIC_TLS_SETUP == "true" %}
-    ServerName {{ env.IRONIC_IP }}
     SSLEngine on
     SSLCertificateFile {{ env.IRONIC_CERT_FILE }}
     SSLCertificateKeyFile {{ env.IRONIC_KEY_FILE }}
