@@ -13,8 +13,8 @@ ipxe-roms-qemu
 iscsi-initiator-utils
 mariadb-server
 mod_ssl
-openstack-ironic-api >= 1:19.0.1-0.20220907234401.d85d7f8.el8
-openstack-ironic-conductor >= 1:19.0.1-0.20220907234401.d85d7f8.el8
+openstack-ironic-api >= 1:19.0.1-0.20221012164020.455c1a9.el8
+openstack-ironic-conductor >= 1:19.0.1-0.20221012164020.455c1a9.el8
 openstack-ironic-inspector >= 10.9.1-0.20220117094044.19e2592.el8
 parted
 psmisc
