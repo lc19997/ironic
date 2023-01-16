@@ -10,5 +10,5 @@ if [ "$IRONIC_HTTPD" == "true" ]; then
 
     . /bin/runhttpd
 else
-    exec /usr/bin/ironic-api --config-file /usr/share/ironic/ironic-dist.conf ${IRONIC_CONFIG_OPTIONS}
+    exec /usr/bin/ironic-api ${IRONIC_CONFIG_OPTIONS}
 fi
