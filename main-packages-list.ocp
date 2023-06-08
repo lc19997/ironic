@@ -19,6 +19,7 @@ openstack-ironic-inspector >= 10.12.1-0.20220513095437.6dd37e5.el8
 python3-debtcollector >= 2.5.0-0.20220509211533.a6b46c5.el8
 python3-dracclient >= 8.0.0-0.20220509201613.9c7499c.el8
 python3-eventlet >= 0.30.2-1.el8
+python3-flask >= 1:1.1.2-6.el8
 python3-gunicorn >= 19.9.0-10.el8ost.1
 python3-ironic-lib >= 5.1.1-0.20220225151335.e205816.el8
 python3-ironic-prometheus-exporter >= 3.1.1-0.20221003235024.eb27243.el8
