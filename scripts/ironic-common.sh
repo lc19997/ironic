@@ -2,6 +2,9 @@
 
 set -euxo pipefail
 
+
+PROVISIONING_MACS="${PROVISIONING_MACS:-}"
+
 function get_provisioning_interface() {
   if [ -n "${PROVISIONING_INTERFACE:-}" ]; then
     # don't override the PROVISIONING_INTERFACE if one is provided
